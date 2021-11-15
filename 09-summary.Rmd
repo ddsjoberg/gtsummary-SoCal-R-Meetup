@@ -1,0 +1,58 @@
+class: inverse, center, middle
+# In Closing
+
+
+---
+# {gtsummary} website
+
+.large[http://www.danieldsjoberg.com/gtsummary/]
+
+<p align="center"><img src="Images/gtsummary_website.png" width=80%></p>
+
+
+---
+# {gtsummary} installation
+
+.pull-left[
+Install production version from CRAN:
+
+```{r eval = FALSE}
+install.packages("gtsummary")
+```
+]
+.pull-right[
+
+Install development version from GitHub:
+
+```{r eval = FALSE}
+remotes::install_github("ddsjoberg/gtsummary")
+```
+]
+
+<p align="center"><img src="Images/cran-downloads.png" width=80%></p>
+
+---
+# {gtsummary} sandbox in {bstfun} 
+
+.large[http://www.danieldsjoberg.com/bstfun/]
+
+.pull-left[
+<p align="center"><img src="Images/bstfun_website.jpg" width=80%></p>
+]
+.pull-right[
+<p align="center"><img src="Images/add_sparkline_ex1.png" width=80%></p>
+<p align="center"><img src="Images/add_inline_forest_plot_ex1.png" width=90%></p>
+]
+---
+# Thank you
+
+<img src = "https://github.com/ddsjoberg/gtsummary/raw/master/data-raw/misc_files/tbl_summary_demo1.gif" alt = "animated" width = "100%">
+
+#### gtsummary questions?
+
+.medium[
+`r icons::fontawesome("stack-overflow")` Ask on [stackoverflow.com](stackoverflow.com) and *use the gtsummary tag*. Hundreds of Qs already answered!
+`r icons::fontawesome("twitter")` @statistishdan,    `r icons::fontawesome("github")` @ddsjoberg
+
+]
+

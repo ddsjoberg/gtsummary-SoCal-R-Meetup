@@ -1,1 +1,1 @@
-# gtsummary-SoCal-R-Meetup
+# gtsummary-kasier-workshop-2021
