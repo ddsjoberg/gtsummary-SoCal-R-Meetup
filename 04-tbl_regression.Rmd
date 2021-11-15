@@ -6,10 +6,11 @@ class: inverse, center, middle
 
 .pull-left[
 ```{r results = FALSE}
-m1 <- glm(
-  response ~ age + stage,
-  data = trial,
-  family = binomial(link = "logit")
+m1 <- 
+  glm(
+    response ~ age + stage,
+    data = trial,
+    family = binomial(link = "logit")
   )
 
 summary(m1)
