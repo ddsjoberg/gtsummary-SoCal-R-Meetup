@@ -1,5 +1,7 @@
 # SoCal R User Group Meetup
 
+Presented November 16, 2021
+
 Reporting Research Study Results with {gtsummary}
 https://www.danieldsjoberg.com/gtsummary-SoCal-R-Meetup/
 
