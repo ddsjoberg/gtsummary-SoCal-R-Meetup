@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>gtsummary: Beyond the Basics</title>
+    <title>Reporting Research Study Results with {gtsummary}</title>
     <meta charset="utf-8" />
     <meta name="author" content="Daniel D. Sjoberg" />
-    <meta name="date" content="2021-04-27" />
+    <meta name="date" content="2021-11-16" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <script src="libs/freezeframe/freezeframe.min.js"></script>
     <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
@@ -576,10 +576,11 @@ class: inverse, center, middle
 .pull-left[
 
 ```r
-m1 &lt;- glm(
-  response ~ age + stage,
-  data = trial,
-  family = binomial(link = "logit")
+m1 &lt;- 
+  glm(
+    response ~ age + stage,
+    data = trial,
+    family = binomial(link = "logit")
   )
 
 summary(m1)
